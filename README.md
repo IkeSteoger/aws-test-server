@@ -46,6 +46,11 @@ For CLI deployment:
 1. default names, select region, answer No to options
 1. create auto deploys but if you make changes to code base **ACP** to Github & then `eb deploy`
 
+### Routes
+
+- `/` ~ Proof of life route
+- `/Hello?Name=<name>` ~ Proof of life with query
+
 <!-- #### How to initialize/run your application -->
 
 <!-- Clone repo, `npm i`, alter `.env` file, `npm start`. -->
