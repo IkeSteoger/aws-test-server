@@ -9,6 +9,10 @@ app.get('/', (req, res, next) => {
   res.status(200).send('Hello world!');
 });
 
+app.get('/greeting', (req, res, next) => {
+  res.status(200).send('Hello world, I greet you!');
+});
+
 app.get('/hello', (req, res, next) => {
   res.status(200).send(`Hello ${req.query.name}!`);
 });

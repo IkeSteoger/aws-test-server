@@ -11,27 +11,26 @@ Deploy a basic server to AWS Elastic Beanstalk.
 ### Links and Resources
 
 - [GitHub Actions ci/cd](https://github.com/IkeSteoger/caps/actions)
-<!-- - [back-end dev server url]() -->
-<!-- - [back-end prod server url]() -->
+- [GUI Deploy url](http://aws-test-4-env.eba-uegnz8y2.us-west-2.elasticbeanstalk.com/)
+- [CLI Deploy url](http://aws-test-server2-dev.us-west-2.elasticbeanstalk.com/)
 
-### Collaborators
+<!-- ### Collaborators
 
 Kaeden O'maera
 Josh Coffey
 Reece Renninger
-Ryan Gallaway
+Ryan Gallaway -->
 
-### Setup
+<!-- ### Setup -->
 
-#### How to initialize/run your application
+<!-- #### How to initialize/run your application -->
 
-Clone repo, `npm i`, alter `.env` file, `npm start`.
+<!-- Clone repo, `npm i`, alter `.env` file, `npm start`. -->
 
 <!-- #### Tests
 
 To run tests, after running `npm i`, run the command `npm test` -->
 
-#### UML - Lab 13
+<!-- #### UML
 
-![UML](./assets/uml.png)
-
+![UML](./assets/uml.png) -->
