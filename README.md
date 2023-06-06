@@ -1,6 +1,6 @@
 # Lab 16
 
-## Project: AWS Test Server
+## Project: Cloud Server Test - AWS
 
 ### Authors: Ike Steoger
 
@@ -14,12 +14,11 @@ Deploy a basic server to AWS Elastic Beanstalk.
 - [GUI Deploy url](http://aws-test-4-env.eba-uegnz8y2.us-west-2.elasticbeanstalk.com/)
 - [CLI Deploy url](http://aws-test-server2-dev.us-west-2.elasticbeanstalk.com/)
 
-<!-- ### Collaborators
+### Collaborators
 
-Kaeden O'maera
-Josh Coffey
-Reece Renninger
-Ryan Gallaway -->
+- Reece Renninger
+- Kaeden O'maera
+- Tim Maupin
 
 ### Setup
 
@@ -55,9 +54,9 @@ For CLI deployment:
 
 <!-- Clone repo, `npm i`, alter `.env` file, `npm start`. -->
 
-<!-- #### Tests
+#### Tests
 
-To run tests, after running `npm i`, run the command `npm test` -->
+To run tests, after running `npm i`, run the command `npm test`
 
 <!-- #### UML
 
