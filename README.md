@@ -21,7 +21,30 @@ Josh Coffey
 Reece Renninger
 Ryan Gallaway -->
 
-<!-- ### Setup -->
+### Setup
+
+#### Processes
+
+For GUI deployment:
+
+1. Create Environment
+1. Application Name (can be same as others)
+1. Environment Name (can left be default)
+1. Platform - Node.js
+1. Platform Branch - Node.js 18 ~ Version 5.8.2 (recommended)
+1. Upload your code - give version name & local file, upload zip (including Json & server.js **DO NOT NAME INDEX.JS**)
+1. Single Instance (default)
+1. Exisiting Service Role: aws-elasticbeanstalk-service-role
+1. EC2 instance profile: aws-elasticbeanstalk-ec2-role
+1. Skip to Review, and Deploy!
+
+For CLI deployment:
+
+1. `eb init` in terminal
+1. use default names, select a region, answer No to options
+1. After making sure you **ACP** to Github, `eb create`
+1. default names, select region, answer No to options
+1. create auto deploys but if you make changes to code base **ACP** to Github & then `eb deploy`
 
 <!-- #### How to initialize/run your application -->
 
